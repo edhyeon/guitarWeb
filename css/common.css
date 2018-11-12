@@ -1,0 +1,13 @@
+h2 {
+     margin-top:30px;
+     margin-left:10px;
+     padding-left:34px;
+     background:url("../img/icon.png") no-repeat left center;
+     background-size:contain;
+ }
+
+.musician {
+    padding:10px;
+    border:1px solid #000;
+    border-radius:10px;
+}
