@@ -3,37 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>String 동아리</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script>
-        window.onload = function(){
+        window.onload = function () {
             window.open("intro.html", "display_area");
         }
     </script>
 </head>
 <body>
 <div id="wrapper">
-    <header>
-        <h1>String</h1>
-    </header>
-    <article>
+    <div class="header-wrap">
+        <header>
+            <h1><a href="main.html">String</a></h1>
+            <h2>Welcome!</h2>
+        </header>
+    </div>
+    <article style="margin-top:-190px">
         <nav>
             <ul>
-                <li><a href="intro.html" target="display_area">Home</a></li>
-                <li><a href="">String의 활동</a></li>
-                <li><a href="">회원가입</a></li>
+                <li><a class="current" href="intro.html" target="display_area">Home</a></li>
+                <li><a href="activity.html" target="display_area">String의 활동</a></li>
                 <li><a href="">멀티미디어</a></li>
                 <li><a href="">관심도서</a></li>
+                <li class="btn-join"><a href="activity.html" target="display_area">회원가입</a></li>
             </ul>
         </nav>
         <section>
             <iframe name="display_area"
-                    style="border-style:none;"
                     width="850px" height="500px"
-            >
+                    style="border-style:none;">
             </iframe>
         </section>
     </article>
     <footer>
-        <p>아무시 아무동 111-11번지 우리대학교 학생회관 420호  전화: 246-2220 (교) 3420</p>
+        <p>아무시 아무동 111-11번지 우리대학교 학생회관 420호 전화: 246-2220 (교) 3420</p>
         <address>관리자 : stringAdmin@uri.ac.kr</address>
     </footer>
 </div>
